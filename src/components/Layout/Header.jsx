@@ -19,7 +19,7 @@ const Header = () => {
       <Stack className="w-1/3" alignItems={'center'}>
         <Typography className="text-secondary border-b" pb={0.5} variant={'body1'} align='center' noWrap={false}>Rivi Education Society's <br/> Rizvi College of Arts, Science & Commerce</Typography>
         <Typography className="text-primary" py={1} variant={'h5'} align='center' noWrap={false}>International Journal Of Research</Typography>
-        <Typography className="text-secondary border-t" pt={0.5}>ISSN 2231- 6124 (UGC Approved Sr.No. 63072 (2018))</Typography>
+        <Typography className="text-secondary border-t" pt={0.5} align='center'>ISSN 2231- 6124 (UGC Approved Sr.No. 63072 (2018))</Typography>
       </Stack>
       <Stack className="w-1/3 items-end">
         <img style={{height: '100px', width: '100px', objectFit: 'contain'}} src={Logo2} alt="Rizvi Education Society"/>
