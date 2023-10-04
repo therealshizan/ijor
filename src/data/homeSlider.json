@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Financial",
+        "imgSrc": "http://internationaljournalofresearch.co.in/wp-content/uploads/2016/10/slide1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Biotechnology",
+        "imgSrc": "http://internationaljournalofresearch.co.in/wp-content/uploads/2016/10/slide2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Agriculture",
+        "imgSrc": "http://internationaljournalofresearch.co.in/wp-content/uploads/2016/10/slide3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Manufacturing",
+        "imgSrc": "http://internationaljournalofresearch.co.in/wp-content/uploads/2016/10/slide4.jpg"
+    }
+]
