@@ -8,12 +8,20 @@
     "link": "/editorial-board"
   },
   {
+    "label": "Guidelines",
+    "link": "/guidelines"
+  },
+  {
     "label": "Subscription",
     "link": "/subscription"
   },
   {
     "label": "Online Submission",
     "link": "/online-submission"
+  },
+  {
+    "label": "General Information",
+    "link": "/general-information"
   },
   {
     "label": "Issues",

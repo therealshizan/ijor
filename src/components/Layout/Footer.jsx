@@ -33,7 +33,7 @@ const Footer = ({ style }) => {
 
           {/* Quick Links */}
           <Stack>
-            <Typography color="white">IJOR Menu</Typography>
+            <Typography color="white">IJR Menu</Typography>
             <List>
               {fetchIjorMenuData.map((menu) => (
                 <ListItem key={menu.label} disablePadding>

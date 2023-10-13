@@ -11,7 +11,7 @@ import IntroductionContent from "./IntroductionContent";
 const Home = () => {
 
   return (
-    <Box mx={2} my={1}>
+    <Box mx={2} my={2}>
       <HomeSlider/>
       <IntroductionContent/>
     </Box>

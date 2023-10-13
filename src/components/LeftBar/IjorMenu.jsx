@@ -8,7 +8,7 @@ const IjorMenu = () => {
   return (
     <Stack className="border rounded-lg" p={1}>
       <Stack>
-        <Typography variant={"body1"}>IJOR Menu</Typography>
+        <Typography variant={"body1"}>IJR Menu</Typography>
       </Stack>
 
       <Stack mt={1}>

@@ -29,7 +29,7 @@ const Downloads = () => {
             <Box>
               <Typography align='left' variant='body1'>Conferences to Present Paper</Typography>
               <Typography className="truncate-lines" align='left' variant='body2'>
-                IJOR Publication have various tie ups with many
+                IJR Publication have various tie ups with many
                 Conference/Seminar Organozers and Independent or Institutional
                 Conferences to Present Paper required for the fulfilment of the
                 reserach work.
@@ -41,7 +41,7 @@ const Downloads = () => {
             <Box>
               <Typography align='left' variant='body1'>Conferences to Present Paper</Typography>
               <Typography className="truncate-lines" align='left' variant='body2'>
-                IJOR Publication have various tie ups with many
+                IJR Publication have various tie ups with many
                 Conference/Seminar Organozers and Independent or Institutional
                 Conferences to Present Paper required for the fulfilment of the
                 reserach work.
@@ -53,7 +53,7 @@ const Downloads = () => {
             <Box>
               <Typography align='left' variant='body1'>Conferences to Present Paper</Typography>
               <Typography className="truncate-lines" align='left' variant='body2'>
-                IJOR Publication have various tie ups with many
+                IJR Publication have various tie ups with many
                 Conference/Seminar Organozers and Independent or Institutional
                 Conferences to Present Paper required for the fulfilment of the
                 reserach work.
