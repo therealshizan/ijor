@@ -7,7 +7,7 @@ import menuItemsData from '../../data/menuItems.json'
 const MenuItems = () => {
   return (
     <Box p={1} className="bg-primary border border-white">
-      <List className="flex" sx={{ columnGap: 3 }}>
+      <List className="flex" sx={{ columnGap: 3, justifyContent: 'space-evenly' }}>
         {menuItemsData.map((menu) => (
           <ListItem
             className="text-white uppercase"
@@ -15,7 +15,7 @@ const MenuItems = () => {
             key={menu.link}
             disablePadding
           >
-            <Typography variant={"body2"} sx={{ fontSize: "0.875rem" }}>
+            <Typography variant={"body2"} sx={{ fontSize: "0.8rem" }}>
               <NavLink className="nav-link" to={menu.link}>
                 {menu.label}
               </NavLink>

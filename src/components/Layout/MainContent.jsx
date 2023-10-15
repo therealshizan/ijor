@@ -6,6 +6,13 @@ import Subscription from '../../pages/Subscription'
 import Guidelines from '../../pages/Guidelines/Guidelines'
 import GeneralInformation from '../../pages/GeneralInformation/GeneralInformation'
 import CallForPapers from '../../pages/CallForPapers'
+import JournalIssues from '../../pages/JournalIssues/JournalIssues'
+import Indexing from '../../pages/Indexing'
+import OnlineSubmission from '../../pages/OnlineSubmission'
+import ContactUs from '../../pages/ContactUs/ContactUs'
+import SpecialIssues from '../../pages/SpecialIssues'
+import PublicationEthics from '../../pages/PublicationEthics'
+import TopicsCovered from '../../pages/TopicsCovered'
 
 const MainContent = ({style}) => {
   return (
@@ -16,7 +23,14 @@ const MainContent = ({style}) => {
         <Route path="subscription" element={<Subscription/>} />
         <Route path="guidelines" element={<Guidelines/>} />
         <Route path="general-information" element={<GeneralInformation/>} />
+        <Route path="online-submission" element={<OnlineSubmission/>} />
         <Route path="call-for-papers" element={<CallForPapers/>} />
+        <Route path="journal-issues" element={<JournalIssues/>} />
+        <Route path="indexing" element={<Indexing/>} />
+        <Route path="special-issues" element={<SpecialIssues/>} />
+        <Route path="publication-ethics" element={<PublicationEthics/>} />
+        <Route path="topics-covered" element={<TopicsCovered/>} />
+        <Route path="contact-us" element={<ContactUs/>} />
       </Routes>
     </div>
   )

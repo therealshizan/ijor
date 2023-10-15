@@ -1,7 +1,8 @@
-import { Box, Button, IconButton, List, ListItem, Typography } from "@mui/material";
+import { Box, Button, IconButton, List, ListItem } from "@mui/material";
 import React from "react";
 import RightBarImages from "../RightBar/RightBarImages";
 import { East, Facebook, LinkedIn, Twitter } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const RightBar = ({ style }) => {
   return (
@@ -14,18 +15,10 @@ const RightBar = ({ style }) => {
         size="small"
         endIcon={<East />}
       >
-        Join Us
-      </Button>
-      <Button
-        variant={"contained"}
-        color="secondary"
-        size="small"
-        endIcon={<East />}
-      >
-        Submit Your Paper Now
+        <Link to={"online-submission"}>Submit Your Paper Now</Link>
       </Button>
 
-      <Typography sx={{fontWeight: 600}} color={'primary'} align="center" component={'a'} href="http://internationaljournalofresearch.co.in/wp-content/uploads/2018/10/ISSNCertificate.pdf">ISSN Certificate of Registration</Typography>
+      {/* <Typography sx={{fontWeight: 600}} color={'primary'} align="center" component={'a'} href="http://internationaljournalofresearch.co.in/wp-content/uploads/2018/10/ISSNCertificate.pdf">ISSN Certificate of Registration</Typography> */}
 
       <List className="flex justify-between" sx={{ columnGap: 1 }}>
         <ListItem sx={{ justifyContent: "center" }} disablePadding>
@@ -44,7 +37,6 @@ const RightBar = ({ style }) => {
           </IconButton>
         </ListItem>
       </List>
-
     </Box>
   );
 };

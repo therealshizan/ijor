@@ -4,7 +4,7 @@ import React from "react";
 const IntroductionContent = () => {
   return (
     <Box>
-      <Typography variant={"h4"} align="center" my={4}>
+      <Typography variant={"h4"} align="center" my={2}>
         Welcome To International Journal Of Research
       </Typography>
       <Typography variant="body2" mb={4}>
