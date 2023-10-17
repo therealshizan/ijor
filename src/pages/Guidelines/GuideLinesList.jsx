@@ -17,10 +17,10 @@ const GuideLinesList = () => {
           key={data.id}
           sx={{ counterIncrement: "my-counter", alignItems: "flex-start" }}
         >
-          <Typography variant="body1" component="span">
+          <Typography align="justify" variant="body1" component="span">
             ({String.fromCharCode(96 + data.id)}){" "}
           </Typography>
-          <ListItemText primary={data.label} sx={{ marginLeft: 2 }} />
+          <ListItemText align="justify" primary={data.label} sx={{ marginLeft: 2 }} />
         </ListItem>
       ))}
     </List>

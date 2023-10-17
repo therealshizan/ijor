@@ -5,9 +5,9 @@ const IntroductionContent = () => {
   return (
     <Box>
       <Typography variant={"h4"} align="center" my={2}>
-        Welcome To International Journal Of Research
+        Welcome to International Journal of Research
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         The Rizvi Education Society was established by DR. AKHTAR HASAN RIZVI in
         the year 1982, who set his heart on the realization of a dream &quot;the
         establishment of a mini university&quot;. The College aims to cater to a
@@ -20,7 +20,7 @@ const IntroductionContent = () => {
         institutes in all, not only in Mumbai but in Jaunpur and Allahabad as
         well.
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         The Degree College is affiliated to the University of Mumbai for
         teaching courses leading to B.A., B.Sc., B.Com., B.A.M.M.C., B.M.S.,
         B.B.I., B.A.F., B.Sc. (Computer Science), B.Sc. (I.T.), and M.Com.
@@ -28,7 +28,7 @@ const IntroductionContent = () => {
         of Mumbai with an M.Sc. in Chemistry (By Research), and a Ph.D. in
         Zoology, Chemistry, Botany, and Commerce.
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         Rizvi College provides extensive academic and co-curricular experiences
         for students, including opportunities such as participation in Sports at
         University, National, and International levels; performance groups; and
@@ -36,7 +36,7 @@ const IntroductionContent = () => {
         their academic horizons, and celebrate cultural diversity. Our website
         www.rizvicollege.edu.in is a window to our vibrant college life.
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         Our college Rizvi College of Arts, Science &amp; Commerce has come out
         with this print blind peer- reviewed indexed research journal titled
         “International Journal of Research” with ISSN 2231-6124 in the year
@@ -47,7 +47,7 @@ const IntroductionContent = () => {
         research papers providing meaningful insights into any subject area of
         current interest.
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         We have on board, renowned academicians and professionals of national
         and international acclaim. Most of our editorial board members are
         heading or are part of institutions of high repute. Publishing papers in
@@ -55,11 +55,11 @@ const IntroductionContent = () => {
         overwhelming response from authors from India and abroad for all our
         earlier issues.
       </Typography>
-      <Typography variant="body2" mb={4} sx={{ fontWeight: 600 }}>
+      <Typography align={"justify"} variant="body2" mb={4} sx={{ fontWeight: 600 }}>
         Rizvi&#39;s journal was listed in UGC (Journal No. 63072, Serial No 106)
         in the multidisciplinary section.
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         The journal is listed in the international database of the Scientific
         Journal of Research (SJIF) Journals Master List database with impact
         factor 4.011 (2016) and 3.508 (2015). Journal details are given in the
@@ -68,12 +68,12 @@ const IntroductionContent = () => {
           http://www.sjifactor.com/passport.php?id=19276
         </a>
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         The impact factors year-wise are 4.011 (2016), 3.508 (2015),
         5.002(2017), 6.67(2018), 7.006 (2019), 7.551 (2020), 8.694 (2022) and
         8.734 (2023).
       </Typography>
-      <Typography variant="body2" mb={4}>
+      <Typography align={"justify"} variant="body2" mb={4}>
         All editorial and administrative correspondence for publication should
         be addressed to Dr. (Mrs.) Anjum Ara M. K. Ahmad, Executive Editor –
         International Journal of Research, Rizvi College of Arts, Science &amp;

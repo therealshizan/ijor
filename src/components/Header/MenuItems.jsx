@@ -7,7 +7,7 @@ import menuItemsData from '../../data/menuItems.json'
 const MenuItems = () => {
   return (
     <Box p={1} className="bg-primary border border-white">
-      <List className="flex" sx={{ columnGap: 3, justifyContent: 'space-evenly' }}>
+      <List className="flex" sx={{ columnGap: 2, justifyContent: 'space-evenly', flexWrap: 'wrap' }}>
         {menuItemsData.map((menu) => (
           <ListItem
             className="text-white uppercase"

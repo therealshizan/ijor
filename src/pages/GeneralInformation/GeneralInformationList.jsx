@@ -10,7 +10,7 @@ const GeneralInformationList = () => {
       {generalInformation.map((data) => (
         <ListItem key={data.id} alignItems="flex-start" disablePadding>
             <ListItemIcon><FiberManualRecord style={{fontSize: 20, color: '#000'}} /></ListItemIcon>
-          <ListItemText>{data.content}</ListItemText>
+          <ListItemText align="justify">{data.content}</ListItemText>
         </ListItem>
       ))}
     </List>

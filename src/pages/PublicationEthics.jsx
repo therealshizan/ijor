@@ -14,7 +14,7 @@ const PublicationEthics = () => {
         Publication Ethics
       </Typography>
 
-      <Typography>
+      <Typography align="justify">
         Research publication ethics are crucial in maintaining the integrity and
         credibility of scientific and academic work. Ethical guidelines ensure
         that research is conducted responsibly, with transparency, and with the
@@ -30,7 +30,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Authorship
           </Typography>
-          <ListItemText primary="All listed authors should have made significant contributions to the research. Honorary or ghost authorship, where individuals are credited without substantial contribution, should be avoided." />
+          <ListItemText align="justify" primary="All listed authors should have made significant contributions to the research. Honorary or ghost authorship, where individuals are credited without substantial contribution, should be avoided." />
         </ListItem>
         <ListItem
           disablePadding
@@ -39,7 +39,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Plagiarism
           </Typography>
-          <ListItemText primary="Plagiarism, the use of someone else's work without proper acknowledgment, is strictly prohibited. Authors must cite all sources accurately." />
+          <ListItemText align="justify" primary="Plagiarism, the use of someone else's work without proper acknowledgment, is strictly prohibited. Authors must cite all sources accurately." />
         </ListItem>
         <ListItem
           disablePadding
@@ -48,7 +48,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Data Fabrication and Falsification
           </Typography>
-          <ListItemText primary="Manipulating research data or fabricating results is a severe breach of ethics. Researchers must report their findings truthfully and without manipulation." />
+          <ListItemText align="justify" primary="Manipulating research data or fabricating results is a severe breach of ethics. Researchers must report their findings truthfully and without manipulation." />
         </ListItem>
         <ListItem
           disablePadding
@@ -57,7 +57,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Conflict of Interest
           </Typography>
-          <ListItemText primary="Authors should disclose any financial or personal conflicts of interest that might influence the results or interpretation of their work. This ensures transparency and objectivity." />
+          <ListItemText align="justify" primary="Authors should disclose any financial or personal conflicts of interest that might influence the results or interpretation of their work. This ensures transparency and objectivity." />
         </ListItem>
         <ListItem
           disablePadding
@@ -66,7 +66,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Informed Consent
           </Typography>
-          <ListItemText primary="When research involves human subjects, informed consent must be obtained. Participants should be aware of the nature of the study and any potential risks involved." />
+          <ListItemText align="justify" primary="When research involves human subjects, informed consent must be obtained. Participants should be aware of the nature of the study and any potential risks involved." />
         </ListItem>
         <ListItem
           disablePadding
@@ -75,7 +75,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Animal Welfare
           </Typography>
-          <ListItemText primary="Research involving animals must adhere to ethical standards ensuring the animals' well-being and minimizing any harm or discomfort." />
+          <ListItemText align="justify" primary="Research involving animals must adhere to ethical standards ensuring the animals' well-being and minimizing any harm or discomfort." />
         </ListItem>
         <ListItem
           disablePadding
@@ -84,7 +84,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Peer Review
           </Typography>
-          <ListItemText primary="Peer review processes should be fair and unbiased. Reviewers should provide constructive feedback and evaluate the quality and integrity of the research." />
+          <ListItemText align="justify" primary="Peer review processes should be fair and unbiased. Reviewers should provide constructive feedback and evaluate the quality and integrity of the research." />
         </ListItem>
         <ListItem
           disablePadding
@@ -93,7 +93,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Redundant Publication
           </Typography>
-          <ListItemText primary="Submitting the same research to multiple journals simultaneously (duplicate submission) or publishing similar research in different journals (self-plagiarism) is unethical." />
+          <ListItemText align="justify" primary="Submitting the same research to multiple journals simultaneously (duplicate submission) or publishing similar research in different journals (self-plagiarism) is unethical." />
         </ListItem>
         <ListItem
           disablePadding
@@ -102,7 +102,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Image Manipulation
           </Typography>
-          <ListItemText primary="Any image or data manipulation should be clearly indicated, and raw data should be made available for scrutiny if necessary." />
+          <ListItemText align="justify" primary="Any image or data manipulation should be clearly indicated, and raw data should be made available for scrutiny if necessary." />
         </ListItem>
         <ListItem
           disablePadding
@@ -111,7 +111,7 @@ const PublicationEthics = () => {
           <Typography fontWeight={600} variant="body1" align="left">
             Citation Ethics
           </Typography>
-          <ListItemText primary="Authors should cite relevant works accurately and avoid excessive self-citation to maintain objectivity and acknowledge the contributions of others." />
+          <ListItemText align="justify" primary="Authors should cite relevant works accurately and avoid excessive self-citation to maintain objectivity and acknowledge the contributions of others." />
         </ListItem>
       </List>
 

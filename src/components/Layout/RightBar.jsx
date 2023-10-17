@@ -1,7 +1,7 @@
-import { Box, Button, IconButton, List, ListItem } from "@mui/material";
+import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import RightBarImages from "../RightBar/RightBarImages";
-import { East, Facebook, LinkedIn, Twitter } from "@mui/icons-material";
+import { East } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
 const RightBar = ({ style }) => {
@@ -18,25 +18,11 @@ const RightBar = ({ style }) => {
         <Link to={"online-submission"}>Submit Your Paper Now</Link>
       </Button>
 
-      {/* <Typography sx={{fontWeight: 600}} color={'primary'} align="center" component={'a'} href="http://internationaljournalofresearch.co.in/wp-content/uploads/2018/10/ISSNCertificate.pdf">ISSN Certificate of Registration</Typography> */}
 
-      <List className="flex justify-between" sx={{ columnGap: 1 }}>
-        <ListItem sx={{ justifyContent: "center" }} disablePadding>
-          <IconButton>
-            <Facebook />
-          </IconButton>
-        </ListItem>
-        <ListItem sx={{ justifyContent: "center" }} disablePadding>
-          <IconButton>
-            <Twitter />
-          </IconButton>
-        </ListItem>
-        <ListItem sx={{ justifyContent: "center" }} disablePadding>
-          <IconButton>
-            <LinkedIn />
-          </IconButton>
-        </ListItem>
-      </List>
+      <Stack color={"red"} mt={4}>
+      <Typography align="center" fontWeight={600}>Beware of the Following Cloned Journal</Typography>
+      <Typography align="center" fontWeight={600}>https://ijrpublisher.com/</Typography>
+      </Stack>
     </Box>
   );
 };

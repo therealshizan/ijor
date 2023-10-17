@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./LatestNews.css";
 
+import newsData from '../../data/news.json'
+
 import { Pagination, Autoplay } from "swiper/modules";
 
 const Downloads = () => {
@@ -25,42 +27,21 @@ const Downloads = () => {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide>
+          {newsData.map(news => (
+
+            <SwiperSlide key={news.id}>
             <Box>
-              <Typography align='left' variant='body1'>Conferences to Present Paper</Typography>
-              <Typography className="truncate-lines" align='left' variant='body2'>
+              <Typography align='left' variant='body1'>{news.title}</Typography>
+              {/* <Typography className="truncate-lines" align='left' variant='body2'>
                 IJR Publication have various tie ups with many
                 Conference/Seminar Organozers and Independent or Institutional
                 Conferences to Present Paper required for the fulfilment of the
                 reserach work.
-              </Typography>
-              <Button sx={{p: 0}}>Read More...</Button>
+              </Typography> */}
+              <Button href={news.link} target="_blank" sx={{p: 0}}>Read More...</Button>
             </Box>
           </SwiperSlide>
-          <SwiperSlide>
-            <Box>
-              <Typography align='left' variant='body1'>Conferences to Present Paper</Typography>
-              <Typography className="truncate-lines" align='left' variant='body2'>
-                IJR Publication have various tie ups with many
-                Conference/Seminar Organozers and Independent or Institutional
-                Conferences to Present Paper required for the fulfilment of the
-                reserach work.
-              </Typography>
-              <Button sx={{p: 0}}>Read More...</Button>
-            </Box>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Box>
-              <Typography align='left' variant='body1'>Conferences to Present Paper</Typography>
-              <Typography className="truncate-lines" align='left' variant='body2'>
-                IJR Publication have various tie ups with many
-                Conference/Seminar Organozers and Independent or Institutional
-                Conferences to Present Paper required for the fulfilment of the
-                reserach work.
-              </Typography>
-              <Button sx={{p: 0}}>Read More...</Button>
-            </Box>
-          </SwiperSlide>
+            ))}
         </Swiper>
       </Stack>
     </Stack>

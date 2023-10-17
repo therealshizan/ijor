@@ -14,7 +14,9 @@ const RightBarImages = () => {
     <Stack>
       <ImageList>
         <ImageListItem style={ListStyle}>
-          <img src={UgcImg} alt="UGC Approved" />
+          <a href="https://drive.google.com/file/d/1tkpekP1hDqAN0CLElY5Zw2cRKJNS929S/view?usp=sharing">
+            <img src={UgcImg} alt="UGC Approved" />
+          </a>
         </ImageListItem>
         <ImageListItem
           sx={[{ m: "auto", height: "100% !important" }, ListStyle]}

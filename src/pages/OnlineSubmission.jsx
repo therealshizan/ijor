@@ -1,34 +1,69 @@
+import { Check } from "@mui/icons-material";
 import { Box, Button, Grid, TextField, Typography } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const OnlineSubmission = () => {
   const [formData, setFormData] = useState({
-    fullName: "Shizan",
-    mobile: "9930952947",
-    articleTitle: "Title",
-    articleSubject: "Subject",
-    address: "Kurla West",
-    primaryEmail: "shizan@fmail.com",
-    alternateEmail: "shaikh@fmail.com",
-    file: "",
+    fullName: "",
+    mobile: "",
+    articleTitle: "",
+    articleSubject: "",
+    address: "",
+    primaryEmail: "",
+    alternateEmail: "",
+    file: null,
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    fetch("http://localhost:8000", {
-      method: "POST",
-      body: JSON.stringify(formData),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.message); // Handle the response as needed
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  const [isFormSent, setIsFormSent] = useState(false);
+  const [successMsg, setSuccessMsg] = useState("");
+
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        setFormData({ ...formData, file: reader.result });
+      };
+      reader.onerror = (error) => {
+        console.log("Error: ", error);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  useEffect(() => {
+    if (formSubmitted) {
+      fetch("http://localhost:8000", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: {
+          "Content-Type": "application/json",
+        },
       })
-      .catch((error) => {
-        console.error(error);
-      });
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data.message); // Handle the response as needed
+          setSuccessMsg(data.message);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+
+        setFormSubmitted(false);
+      }
+    }, [formSubmitted, formData]);
+    
+    useEffect(() => {
+      console.log("formData.file", formData.file);
+    }, [formData.file]);
+    
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      setFormSubmitted(true);
+      setSuccessMsg('Please Wait');
+      setIsFormSent(true);
   };
 
   return (
@@ -139,17 +174,13 @@ const OnlineSubmission = () => {
               Upload Your Article (required) (You can attach up to 2MB Word
               Document)
             </label>
-            <TextField
-              id="article-file"
-              variant="outlined"
-              fullWidth={true}
-              required
-              // value={formData.file}
+            <input
               type="file"
-              onChange={(e) =>
-                setFormData({ ...formData, file: e.target.files[0] })
-              }
-              name={"file"}
+              id="article-file"
+              required
+              name="file"
+              accept=".pdf,.doc,.docx"
+              onChange={handleFileChange}
             />
           </Grid>
           <Grid item xs={12}>
@@ -159,6 +190,16 @@ const OnlineSubmission = () => {
           </Grid>
         </Grid>
       </form>
+
+      {isFormSent && (
+        <Typography
+          sx={{ color: "green", border: "1px solid green", p: 2 }}
+          mt={4}
+        >
+          <Check />
+          {successMsg}
+        </Typography>
+      )}
     </Box>
   );
 };
