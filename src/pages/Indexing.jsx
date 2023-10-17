@@ -4,7 +4,7 @@ import React from "react";
 import indexingData from "../data/indexingData.json";
 import theme from "../theme";
 
-import impactFactorLogo from '../components/RightBar/img/scientific-journal-impact-factor.jpeg'
+// import impactFactorLogo from '../components/RightBar/img/scientific-journal-impact-factor.jpeg'
 
 const Indexing = () => {
   return (
@@ -13,7 +13,7 @@ const Indexing = () => {
         Indexing
       </Typography>
 
-      <img style={{margin: 'auto'}} src={impactFactorLogo} alt={"Scientific Journal Impact Factor"} />
+      <img style={{margin: 'auto'}} src={`https://res.cloudinary.com/drn9uxegj/image/upload/v1697545384/scientific-journal-impact-factor.0b8b12d05906cd474b97_vgv0rn.jpg`} alt={"Scientific Journal Impact Factor"} />
       <Typography variant="h5" mb={2} align="center">
         Scientific Journal Impact Factor
       </Typography>

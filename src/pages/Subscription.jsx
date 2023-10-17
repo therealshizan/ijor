@@ -99,7 +99,7 @@ const Subscription = () => {
         Mumbai-400050
       </Typography>
 
-      <Typography mt={2}>
+      <Typography mt={2} align="justify">
         All payments should be made immediately after receiving an acceptance letter.<br/>
         Supply of Journal will commence only on receipt of the full subscription amount.<br/>
         INR 700 for an additional hard copy of the journal for individuals.<br/>

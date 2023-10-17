@@ -22,6 +22,7 @@ const EditorialBoardTable = () => {
         >
           {editorialBoard.map((data) => (
             <TableRow
+            key={data.id}
                 sx={{border: '1px solid #161616', display: 'grid', alignItems: 'center'}}
             >
               <TableCell
