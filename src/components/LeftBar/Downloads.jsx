@@ -1,6 +1,5 @@
 import { ListItem, List, Stack, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
-import useFetch from "../../hooks/useFetch";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import downloadMenuItems from '../../data/downloadMenuItems.json'

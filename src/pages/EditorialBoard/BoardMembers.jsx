@@ -1,4 +1,4 @@
-import { List, ListItem, ListItemText, Typography } from "@mui/material";
+import { List, ListItem, Typography } from "@mui/material";
 import React from "react";
 
 const BoardMembers = () => {
@@ -21,7 +21,7 @@ const BoardMembers = () => {
             Editor-in-Chief
           </Typography>
           <Typography align="center">
-            Dr. Ashfaq Ahmad Khan: Principal I/C, Rizvi College of Arts, Science
+            Dr. Ashfaq Ahmad Khan: Principal, Rizvi College of Arts, Science
             &amp; Commerce, Bandra (West), Mumbai - 400050.
           </Typography>
         </ListItem>
