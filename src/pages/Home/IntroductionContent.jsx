@@ -62,22 +62,20 @@ const IntroductionContent = () => {
       <Typography align={"justify"} variant="body2" mb={4}>
         The journal is listed in the international database of the Scientific
         Journal of Research (SJIF) Journals Master List database with impact
-        factor 4.011 (2016) and 3.508 (2015). Journal details are given in the
+        factor 8.734 (2023). Journal details are given in the
         link:{" "}
         <a className="text-secondary underline" href="http://www.sjifactor.com/passport.php?id=19276">
           http://www.sjifactor.com/passport.php?id=19276
         </a>
       </Typography>
       <Typography align={"justify"} variant="body2" mb={4}>
-        The impact factors year-wise are 4.011 (2016), 3.508 (2015),
-        5.002(2017), 6.67(2018), 7.006 (2019), 7.551 (2020), 8.694 (2022) and
-        8.734 (2023).
+        The impact factors year-wise are 3.508 (2015), 4.011 (2016), 5.002 (2017), 6.67 (2018), 7.006 (2019), 7.551 (2020), 7.662 (2021), 8.694 (2022) and 8.734 (2023).
       </Typography>
       <Typography align={"justify"} variant="body2" mb={4}>
         All editorial and administrative correspondence for publication should
         be addressed to Dr. (Mrs.) Anjum Ara M. K. Ahmad, Executive Editor –
         International Journal of Research, Rizvi College of Arts, Science &amp;
-        Commerce, Off: Carter Road, Bandra (W), Mumbai – 400 050 (Maharashtra).<br/>
+        Commerce, Off: Carter Road, Bandra (W), Mumbai – 400 050 (India).<br/>
         Email id: <a className="text-secondary underline" href="mailto:executiveeditor.ijr@rizvicollege.edu.in">executiveeditor.ijr@rizvicollege.edu.in</a>.<br/> For details please
         contact on mobile no <a className="text-secondary underline" href="tel:+91 8451046220">+91 84510 46220</a>.
       </Typography>

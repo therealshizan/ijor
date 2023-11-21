@@ -23,7 +23,7 @@ const GeneralInformation = () => {
             </TableRow>
             <TableRow>
                 <TableCell><strong>Tel</strong></TableCell>
-                <TableCell>+91 -22-26480348, +91-22-26041696, +91-8451046220</TableCell>
+                <TableCell>+91 90048 34583, +91-8451046220</TableCell>
             </TableRow>
             <TableRow>
                 <TableCell><strong>Fax</strong></TableCell>

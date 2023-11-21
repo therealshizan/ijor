@@ -1,9 +1,9 @@
 import { Check } from "@mui/icons-material";
 import { Box, Button, Grid, TextField, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 const OnlineSubmission = () => {
-  const [formData, setFormData] = useState({
+  const initalFormData = useMemo(()=> ({
     fullName: "",
     mobile: "",
     articleTitle: "",
@@ -12,7 +12,9 @@ const OnlineSubmission = () => {
     primaryEmail: "",
     alternateEmail: "",
     file: null,
-  });
+  }), []);
+
+  const [formData, setFormData] = useState(initalFormData);
 
   const [formSubmitted, setFormSubmitted] = useState(false);
 
@@ -35,7 +37,7 @@ const OnlineSubmission = () => {
 
   useEffect(() => {
     if (formSubmitted) {
-      fetch("http://localhost:8000", {
+      fetch("https://internationaljournalofresearch.co.in/server/index.php", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: {
@@ -46,24 +48,25 @@ const OnlineSubmission = () => {
         .then((data) => {
           console.log(data.message); // Handle the response as needed
           setSuccessMsg(data.message);
+          setFormData(initalFormData)
         })
         .catch((error) => {
           console.error(error);
         });
 
-        setFormSubmitted(false);
-      }
-    }, [formSubmitted, formData]);
-    
-    useEffect(() => {
-      console.log("formData.file", formData.file);
-    }, [formData.file]);
-    
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      setFormSubmitted(true);
-      setSuccessMsg('Please Wait');
-      setIsFormSent(true);
+      setFormSubmitted(false);
+    }
+  }, [formSubmitted, formData, initalFormData]);
+
+  useEffect(() => {
+    console.log("formData.file", formData.file);
+  }, [formData.file]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormSubmitted(true);
+    setSuccessMsg("Please Wait");
+    setIsFormSent(true);
   };
 
   return (
@@ -71,6 +74,9 @@ const OnlineSubmission = () => {
       <Typography variant="h6" mb={4} align="center">
         Online Submission
       </Typography>
+
+      {/* <Typography>Please click on the link below and submit all details if you want to submit your paper.</Typography>
+      <a style={{color: theme.palette.secondary.main}} target="_blank" rel="noreferrer" href="https://forms.gle/mgGjcfPahUsAyoSs6">https://forms.gle/mgGjcfPahUsAyoSs6</a> */}
 
       <form onSubmit={handleSubmit} encType="multipart/form-data">
         <Grid container spacing={2}>

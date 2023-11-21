@@ -11,7 +11,7 @@ const CallForPapers = () => {
       <Typography mb={4} fontWeight={600}>
         Call for papers for International Journal of Research, Volume 13 Issue 1
         (July- December 2023) ISSN 2231-6124, Peer Reviewed Biannual Indexed
-        Journal with Impact Factor 8.694 (SJIF 2022).
+        Journal with Impact Factor 8.734 (SJIF 2023).
         <br />
         The last date for sending the paper is extended till 15th of November
         2023
@@ -67,7 +67,7 @@ const CallForPapers = () => {
       </Typography>
 
       <Typography mb={4} align="justify">
-        Please see details about the editorial board, author’s guidelines,
+        Please see details about the editorial board, Author’s guidelines,
         <a href=" http://internationaljournalofresearch.co.in/guidelines/">
            http://internationaljournalofresearch.co.in/guidelines/
         </a>{" "}

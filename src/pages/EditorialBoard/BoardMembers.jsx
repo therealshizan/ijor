@@ -6,7 +6,7 @@ const BoardMembers = () => {
     <>
       <List>
         <ListItem sx={{ mb: 2, flexDirection: "column" }}>
-          <Typography align="center" variant="body1" fontWeight={600}>
+          <Typography align="center" variant="h6" fontWeight={600}>
             Chief Patrons
           </Typography>
           <Typography align="center">
@@ -17,7 +17,7 @@ const BoardMembers = () => {
           </Typography>
         </ListItem>
         <ListItem sx={{ mb: 2, flexDirection: "column" }}>
-          <Typography align="center" variant="body1" fontWeight={600}>
+          <Typography align="center" variant="h6" fontWeight={600}>
             Editor-in-Chief
           </Typography>
           <Typography align="center">
@@ -26,7 +26,7 @@ const BoardMembers = () => {
           </Typography>
         </ListItem>
         <ListItem sx={{ mb: 2, flexDirection: "column" }}>
-          <Typography align="center" variant="body1" fontWeight={600}>
+          <Typography align="center" variant="h6" fontWeight={600}>
             Executive Editor
           </Typography>
           <Typography align="center">
@@ -38,8 +38,8 @@ const BoardMembers = () => {
           </Typography>
         </ListItem>
         <ListItem sx={{ mb: 2, flexDirection: "column" }}>
-          <Typography align="center" variant="body1" fontWeight={600}>
-            MEMBERS
+          <Typography align="center" variant="h6" fontWeight={600}>
+            Members
           </Typography>
           <Typography align="center">
             Dr. Rana Ansariya
@@ -53,14 +53,14 @@ const BoardMembers = () => {
           </Typography>
         </ListItem>
         <ListItem sx={{ mb: 2, flexDirection: "column" }}>
-          <Typography align="center" variant="body1" fontWeight={600}>
-            TECHNICAL SUPPORT
+          <Typography align="center" variant="h6" fontWeight={600}>
+            Technical Support
           </Typography>
           <Typography align="center">Mr. Masoom Ali</Typography>
         </ListItem>
         <ListItem sx={{ mb: 2, flexDirection: "column" }}>
-          <Typography align="center" variant="body1" fontWeight={600}>
-            ADMINISTRATIVE SUPPORT
+          <Typography align="center" variant="h6" fontWeight={600}>
+            Administrative Support
           </Typography>
           <Typography align="center">Mr. William Fargose</Typography>
         </ListItem>

@@ -21,7 +21,7 @@ const RightBarImages = () => {
         <ImageListItem
           sx={[{ m: "auto", height: "100% !important" }, ListStyle]}
         >
-          <a href="http://internationaljournalofresearch.co.in/wp-content/uploads/2018/10/ISSNCertificate.pdf">
+          <a href="assets/docs/ISSNCertificate.pdf">
             <img
               src={`https://res.cloudinary.com/drn9uxegj/image/upload/v1697545375/e7937b5i3jgw3es4dztz.png`}
               style={{ objectFit: "contain" }}

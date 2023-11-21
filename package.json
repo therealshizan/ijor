@@ -1,6 +1,7 @@
 {
   "name": "ijor",
   "homepage": "http://internationaljournalofresearch.co.in/",
+  "proxy": "https://internationaljournalofresearch.co.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

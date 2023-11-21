@@ -11,8 +11,8 @@ const Issues = ({ data }) => {
       </Typography>
 
       <List>
-        {data.map((d) => (
-          <ListItem disablePadding>
+        {data.map((d, i) => (
+          <ListItem key={i} disablePadding>
             <ListItemText sx={{color: theme.palette.primary.main}}><a href={d.link}>- {d.title}</a></ListItemText>
           </ListItem>
         ))}

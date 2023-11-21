@@ -27,6 +27,9 @@ const TopicsCovered = () => {
           <ListItemText primary="- Social Sciences" />
         </ListItem>
         <ListItem>
+          <ListItemText primary="- Hospitality Studies" />
+        </ListItem>
+        <ListItem>
           <ListItemText primary="- Literature ( English, Hindi & Urdu)" />
         </ListItem>
       </List>

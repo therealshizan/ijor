@@ -23,7 +23,7 @@
   {
     "id": 4,
     "name": "Dr. Gajendra K. Vishwakarma",
-    "designation": null,
+    "designation": "Associate Professor",
     "university": "Indian School of Mines",
     "location": "Dhanbad, Jharkhand, India"
   },
@@ -37,7 +37,7 @@
   {
     "id": 6,
     "name": "Dr. G. K. Kalkoti",
-    "designation": "Principal",
+    "designation": "Former Principal",
     "university": "MVM College, (Univ .of Mumbai)",
     "location": "Andheri(W), Mumbai, India"
   },
@@ -50,10 +50,10 @@
   },
   {
     "id": 8,
-    "name": "Dr. Besavraj Benni",
-    "designation": "Chairperson",
-    "university": "PG Dept. of Economics, VSK Univ.",
-    "location": "Karnataka, India"
+    "name": "Dr. Besavaraj Benni",
+    "designation": "Professor, Dept. of Economics",
+    "university": "Bangalore University.",
+    "location": "Bengaluru, India"
   },
   {
     "id": 9,
@@ -70,18 +70,60 @@
     "location": "Pune, Maharashtra, India"
   },
   {
+    "id": 31,
+    "name": "Dr. Kiran Mangaonkar",
+    "designation": "Director",
+    "university": "Guru Nanak Khalsa College, (Univ. of Mumbai)",
+    "location": "Mumbai, Maharashtra, India"
+  },
+  {
+    "id": 32,
+    "name": "Dr. Mohd. Nayyer Rahman",
+    "designation": "Director",
+    "university": "Department of Commerce, Aligarh Muslim University",
+    "location": "Aligarh, India"
+  },
+  {
+    "id": 33,
+    "name": "Dr. M.B. Bhide",
+    "designation": "Former Director",
+    "university": "SIMREE & State Ins for Administrative Careers, Sydnehum College",
+    "location": "Churchgate, Mumbai"
+  },
+  {
+    "id": 34,
+    "name": "Prof. (Dr.) Pranjal Bezborah",
+    "designation": "Dean",
+    "university": "School of Commerce & Management Science, Dibrugarh University",
+    "location": "Aligarh, India"
+  },
+  {
+    "id": 35,
+    "name": "Dr. Asha Jindal",
+    "designation": "Professor & HOD",
+    "university": "Dept. of Statistics, K.C. College, HSNC University",
+    "location": "Mumbai, India"
+  },
+  {
+    "id": 36,
+    "name": "Prof. (Dr.) Prabir Burman",
+    "designation": "Professor",
+    "university": "University of California",
+    "location": "Davis"
+  },
+  {
     "id": 11,
     "name": "Dr. Mohd. Saeem Khan",
     "designation": null,
-    "university": "Dept. of Commerce, Mohammed Ali Jauhar University",
+    "university": "Dept. of Commerce, Aligarh Muslim University",
     "location": "Rampur, UP, India"
   },
   {
-    "id": 12,
-    "name": "Dr. Michael Rajamathi",
-    "designation": "Department of Chemistry",
-    "university": "St. Joseph’s College",
-    "location": "Bangalore, India"
+    "id": 30,
+    "name": "Dr. Kuldeep Kumar",
+    "designation": "Professor",
+    "university": "Bond University",
+    "location": "Australia"
   },
   {
     "id": 13,
@@ -101,7 +143,8 @@
     "id": 15,
     "name": "Dr. Rafat Hussain Rizvi",
     "designation": "Senior Scientist",
-    "university": "Washington, U.S.A."
+    "university": "Washington",
+    "location": "U.S.A."
   },
   {
     "id": 16,
@@ -202,10 +245,10 @@
     "location": "Sonipat, India"
   },
   {
-    "id": 30,
-    "name": "Dr. Kuldeep Kumar",
-    "designation": "Professor",
-    "university": "Bond University",
-    "location": "Australia"
+    "id": 12,
+    "name": "Dr. Michael Rajamathi",
+    "designation": "Department of Chemistry",
+    "university": "St. Joseph’s College",
+    "location": "Bangalore, India"
   }
 ]

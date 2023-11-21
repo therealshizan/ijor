@@ -108,7 +108,7 @@ const Subscription = () => {
         Rizvi Education Society’s<br/>
         Rizvi College of Arts, Science &amp; Commerce,<br/>
         Off Carter Road, Bandra (West), Mumbai - 400 050, India<br/>
-        Phone: +91-22-2648 0348, +91-22-2604 1696, +91-8451046220<br/>
+        Phone: +91 90048 34583, +91-8451046220<br/>
         Fax: +91-22-2649 7448<br/>
         E-mail: executiveeditor.ijr@rizvicollege.edu.in<br/>
         Website: http://www.rizvicollege.edu.in

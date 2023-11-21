@@ -5,6 +5,7 @@ import MainContent from "./MainContent";
 import RightBar from "./RightBar";
 import Footer from "./Footer";
 import { Box, Container } from "@mui/material";
+import CopyrightFooter from "./CopyrightFooter";
 
 const Layout = () => {
   return (
@@ -28,6 +29,7 @@ const Layout = () => {
         </Container>
         <div style={styles.footer}>
           <Footer />
+          <CopyrightFooter/>
         </div>
       </div>
     </Box>

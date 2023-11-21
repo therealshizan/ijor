@@ -13,7 +13,7 @@ const Indexing = () => {
         Indexing
       </Typography>
 
-      <img style={{margin: 'auto'}} src={`https://res.cloudinary.com/drn9uxegj/image/upload/v1697545384/scientific-journal-impact-factor.0b8b12d05906cd474b97_vgv0rn.jpg`} alt={"Scientific Journal Impact Factor"} />
+      <a rel="noreferrer" href="http://www.sjifactor.com/passport.php?id=19276" target="_blank"><img style={{margin: 'auto'}} src={`https://res.cloudinary.com/drn9uxegj/image/upload/v1697545384/scientific-journal-impact-factor.0b8b12d05906cd474b97_vgv0rn.jpg`} alt={"Scientific Journal Impact Factor"} /></a>
       <Typography variant="h5" mb={2} align="center">
         Scientific Journal Impact Factor
       </Typography>
