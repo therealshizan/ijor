@@ -37,7 +37,7 @@ const IntroductionContent = () => {
         www.rizvicollege.edu.in is a window to our vibrant college life.
       </Typography>
       <Typography align={"justify"} variant="body2" mb={4}>
-        Our college Rizvi College of Arts, Science &amp; Commerce has come out
+        Rizvi College of Arts, Science &amp; Commerce has come out
         with this print blind peer- reviewed indexed research journal titled
         “International Journal of Research” with ISSN 2231-6124 in the year
         2011. The journal is bi-annual in nature. The aim of the journal is to

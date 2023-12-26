@@ -185,7 +185,7 @@ const OnlineSubmission = () => {
               id="article-file"
               required
               name="file"
-              accept=".pdf,.doc,.docx"
+              accept=".doc,.docx"
               onChange={handleFileChange}
             />
           </Grid>

@@ -38,7 +38,7 @@ const CallForPapers = () => {
       </Typography>
 
       <Typography mb={4} align="justify">
-        Our college Rizvi College of Arts, Science &amp; Commerce has come out
+        Rizvi College of Arts, Science &amp; Commerce has come out
         with this print blind peer reviewed indexed research journal titled
         “International Journal of Research” with ISSN 2231-6124. The journal is
         bi-annual in nature. The aim of the journal is to provide a platform for
